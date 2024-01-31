@@ -1,0 +1,25 @@
+Sitemap: https://example.com/sitemap.xml
+Sitemap: https://example.com/image-sitemap.xml
+
+# Disallow data scraping and usage of website content for AI model training or prompting.
+# Explicit opt-out from certain crawlers is not an invitation for others to train AI models on our content.
+# Data scraping and model training must be opt-in, not opt-out.
+# Demand consent, credit, and compensation.
+# #CreateDontScrape
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Host: https://example.com
