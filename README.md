@@ -1,6 +1,5 @@
 # robots.txt
-A robots.txt that disallows harmful AI training bots
-
+A robots.txt that allows indexing for search crawlers, but disallows harmful AI training bots that can take your content for AI training without your consent (see [example](robots.txt)):
 
 ```
 Sitemap: https://[your domain name here]/sitemap.xml
@@ -29,3 +28,7 @@ Allow: /
 Disallow: /[Anything to exclude from indexing]
 Host: https://[your domain name here without a closing slash]
 ```
+
+Edit the above and place on your website as https://[your domain name here]/robots.txt .
+
+[Create an issue](https://github.com/jumpingrabbit/robots.txt/issues/new) if you think more bots need to be added.
